@@ -1,57 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Article preview component</title>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./node_modules/minireset.css/minireset.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <title>Frontend Mentor | Article preview component</title>
+    <link rel="stylesheet" href="./style.css" />
 
-</head>
-<body>
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="./node_modules/minireset.css/minireset.css" />
 
-  <div class="article-preview-container">
-    <img src="./images/drawers.jpg" alt="Drawer with decorations on top" class="preview-img">
-    <div class="preview-text">
-      <p class="big-text">
-        Shift the overall look and feel by adding these wonderful
-        touches to furniture in your home
-      </p>
-      <div class="small-text">
-        Ever been in a room and felt like something was missing? Perhaps
-        it felt slightly bare and uninviting. I've got some simple tips
-        to help you make any room feel complete.
-      </div>
-      <div class="info-container">
-        <div class="article-info">
-          <img src="./images/avatar-michelle.jpg" alt="Author avatar" class="avatar">
-          <div class="author-info">
-            Michelle Appleton
-            28 Jun 2020
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="article-preview-container">
+      <img
+        src="./images/drawers.jpg"
+        alt="Drawer with decorations on top"
+        class="preview-img"
+      />
+      <div class="preview-text">
+        <p class="big-text">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </p>
+        <div class="small-text">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I've got some simple tips to help
+          you make any room feel complete.
+        </div>
+        <div class="info-container">
+          <div class="article-info">
+            <img
+              src="./images/avatar-michelle.jpg"
+              alt="Author avatar"
+              class="avatar"
+            />
+            <div class="author-info">Michelle Appleton 28 Jun 2020</div>
           </div>
+          <img
+            src="./images/icon-share.svg"
+            alt="Share icon"
+            class="share-icon light"
+          />
         </div>
-        <img src="./images/icon-share.svg" alt="Share icon" class="share-icon light">
-      </div>
-      <div class="share-container">
-        <p class="share-text">Share</p>
-        <div class="social-media-icons">
-          <img src="./images/icon-facebook.svg" alt="Facebook icon" class="icon">
-          <img src="./images/icon-twitter.svg" alt="Twitter icon" class="icon">
-          <img src="./images/icon-pinterest.svg" alt="Pinterest icon" class="icon">
+        <div class="share-container">
+          <p class="share-text">Share</p>
+          <div class="social-media-icons">
+            <img
+              src="./images/icon-facebook.svg"
+              alt="Facebook icon"
+              class="icon"
+            />
+            <img
+              src="./images/icon-twitter.svg"
+              alt="Twitter icon"
+              class="icon"
+            />
+            <img
+              src="./images/icon-pinterest.svg"
+              alt="Pinterest icon"
+              class="icon"
+            />
+          </div>
+          <img
+            src="./images/icon-share.svg"
+            alt="Share icon"
+            class="share-icon dark"
+          />
         </div>
-        <img src="./images/icon-share.svg" alt="Share icon" class="share-icon dark">
       </div>
     </div>
-  </div>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
 </html>

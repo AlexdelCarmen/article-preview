@@ -1,2 +1,17 @@
+:root {
+    --dark-blue1: hsl(217, 19%, 35%); 
+    --dark-blue2: hsl(214, 17%, 51%); 
+    --gray-blue: hsl(212, 23%, 69%);
+    --light-gray-blue: hsl(210, 46%, 95%); 
+    --mid-size: 13px;
+    --big-size: 16px;
+    --font-family: 'Manrope', sans-serif;
+    --normal-weight: 500;
+    --bold-weight: 700;
+}
+
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
