@@ -14,9 +14,7 @@
 
     <title>Frontend Mentor | Article preview component</title>
     <link rel="stylesheet" href="./style.css" />
-
-    <!-- CSS Reset -->
-    <link rel="stylesheet" href="./node_modules/minireset.css/minireset.css" />
+  
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,27 +36,32 @@
           Shift the overall look and feel by adding these wonderful touches to
           furniture in your home
         </p>
-        <div class="small-text">
+        <p class="small-text">
           Ever been in a room and felt like something was missing? Perhaps it
           felt slightly bare and uninviting. I've got some simple tips to help
           you make any room feel complete.
-        </div>
+        </p>
+      </div>
         <div class="info-container">
-          <div class="article-info">
-            <img
-              src="./images/avatar-michelle.jpg"
-              alt="Author avatar"
-              class="avatar"
-            />
-            <div class="author-info">Michelle Appleton 28 Jun 2020</div>
-          </div>
+ 
+            <div class="author-wrapper">
+              <img
+                src="./images/avatar-michelle.jpg"
+                alt="Author avatar"
+                class="avatar"
+              />
+              <div class="author-info">
+                <p>Michelle Appleton</p>
+                <p class="small-text">28 Jun 2020</p>
+              </div>
+            </div>
           <img
             src="./images/icon-share.svg"
             alt="Share icon"
             class="share-icon light"
           />
         </div>
-        <div class="share-container">
+        <div class="share-container invisible">
           <p class="share-text">Share</p>
           <div class="social-media-icons">
             <img
@@ -78,12 +81,12 @@
             />
           </div>
           <img
-            src="./images/icon-share.svg"
+            src="./images/icon-share-dark.svg"
             alt="Share icon"
             class="share-icon dark"
           />
         </div>
-      </div>
+
     </div>
 
     <div class="attribution">
@@ -92,5 +95,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>

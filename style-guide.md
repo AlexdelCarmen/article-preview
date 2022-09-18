@@ -22,7 +22,7 @@ The designs were created to the following widths:
 
 ### Headings
 
-- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
+- Family: [Manrope](https://fonts.gogle.com/specimen/Manrope)
 - Weights: 500, 700
 
 ## Icons
